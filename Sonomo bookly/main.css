@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*********navigation bar***********/
+#navsono{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background: #0f0f0a;
+}
+
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+    color:#E02B50 !important;
+    text-shadow: 0px 0.5px 0px #FBE0E6, 0px 1px 0.2px #FBE0E6 ,0px 1.5px 0.4px #FBE0E6;
+}
+
+#navbarSupportedContent a{
+    padding: 15px;
+    color: #fff !important;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #E02B50;
+}
+
+#login_btn{
+    background: #E02B50;
+    margin: 5px;
+    border-radius: 15px;
+    color:antiquewhite;
+}
+
+#login_btn:hover{
+    background: #f4eff0;
+    color: #E02B50;
+}
+
+#cart_btn{
+    background: #E02B50;
+    margin: 5px;
+    border-radius: 15px;
+    color:antiquewhite;
+}
+
+#cart_btn:hover{
+    background: #f4eff0;
+    color: #E02B50;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********Home***********/
+#home{
+    background-image: linear-gradient(rgba(0,0,0.2,0.3),rgba(0,0,0.4,0.5)),url(src/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: 2.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc;
+}
+
+#home p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/************shop***********/
+#shop{
+    background: #e5e5e5;
+}
+
+#shop h1{
+    font-size: 50px;
+    letter-spacing: 1.8px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#shop img{
+    width: 250px;
+    height: 250px
+}
+
+.card{
+    width: 250px;
+    height: auto;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3), inset 4px 4px 10px whitesmoke;
+    border-radius: 10px !important;
+    overflow: hidden;
+    justify-content: center;
+    margin: 25px 50px;
+}
+
+/************About***********/
+#about{
+    background-color: bisque;
+}
+
+#about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+/************Login Form***********/
+#loginb{
+    background: #ccc;
+}
+
+form{
+    width: 24%;
+    background-color: #0f0a0a;
+    color: #fff;
+    padding: 50px;
+    border-radius: 2%;
+    margin-top: 150px;
+}
+
+#sub{
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    background-color: #ccc;
+    color: #0f0f0a;
+}
+
+#sub:hover{
+    background-color: #0f0f0a;
+    color: #ccc;
+}
